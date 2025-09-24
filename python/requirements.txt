@@ -1,0 +1,16 @@
+# Core dependencies with proven compatibility
+requests==2.31.0
+feedparser==6.0.10
+python-dateutil==2.8.2
+
+# Alternative search engines (avoid duckduckgo-search conflicts)
+googlesearch-python==1.2.3
+# OR alternatively:
+# serpapi==2.4.2  (requires API key but more reliable)
+
+# Content extraction (lightweight alternative)
+newspaper3k==0.2.8
+
+# Optional: For better HTML parsing if needed
+lxml==4.9.3
+beautifulsoup4==4.12.2
